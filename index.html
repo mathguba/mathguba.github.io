@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+  	  <meta charset="UTF-8"/>
+  	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  	  <title>Curriculo Matheus Barros</title>
+  	  <!--Import Google Icon Font-->
+  	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	  <!-- CSS -->
+  	  <link rel="stylesheet" href="css/materialize.css">
+      <link rel="stylesheet" href="css/custom.css">
+    </head>
+
+    <body>
+      <!-- cabeçalho -->
+      <nav class= "links cor5 cabecalho z-depth-1">           
+        <a id="menugrande" class="button menu flow-text hide-on-med-and-down" href="#"> Menu </a>
+        <a href="#" id="btn-menu" class="hide-on-large-only button button-collapse"><i class="material-icons">menu</i></a>
+        <nav class="menuesquerdo">
+          <a class="btn-close">x</a>
+          <ul>
+            <li><a href="#if1">Introdução</a></li><br>
+            <li><a href="#if2">Perfil</a></li><br>
+            <li><a href="#if3">Experiências</a></li><br>
+          </ul>
+        </nav>
+        <a id="btn-contato" class="button contato flow-text" href="#"> Contato </a>
+        <nav class="menudireito">
+          <a class="bt-close">x</a>
+          <ul>
+            <li><a href="mailto:mathguba@gmail.com?subject=feedback">Email</a></li><br>
+            <li><a href="https://www.facebook.com/matheus.g.barros" target="_blank">Facebook</a></li><br>
+          </ul>
+      </nav>
+
+      <div class="row">
+        <div class="col s12 m12 l12 center-align">
+          <h4> Olá, eu sou Matheus.</h4>
+        </div>
+        <div class="center" id="inicio">
+          <img class="circle responsive-img z-depth-2" title="Foto" alt="Foto de perfil" src="img/cartoon.jpg">
+        </div>
+      </div>
+
+      <!-- corpo --> 
+      <div class="row">
+        <div class= "quadrotitulo col s12 m6 l6 cor4">
+          <div class="meio">
+            <h3>Introdução</h3>
+          </div>
+        </div>
+        <div class= "quadrotexto col s12 m6 l6">
+          <iframe id="if1" width="100%" height="100%" src="texto1.html"></iframe>    
+        </div>
+      </div>
+
+      <div class="row">
+        <div class= "quadrotitulo col s12 m6 l6 cor2">
+          <div class="meio">
+            <h3>Perfil</h3>
+          </div>
+        </div>
+        <div class= "quadrotexto col s12 m6 l6">
+          <iframe id="if2" width="100%" height="100%" src="texto2.html"></iframe>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class= "quadrotitulo col s12 m6 l6 cor3">
+          <div class="meio">
+            <h3>Experiências</h3>
+            </div>
+        </div>
+        <div class= "quadrotexto col s12 m6 l6">
+          <iframe id="if3" width="100%" height="100%" src="texto3.html"></iframe>
+        </div>
+      </div>
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript">
+        $("#btn-menu").click(function(){
+          $("#btn-menu").hide();
+          $(".menuesquerdo").show();
+        })
+        $(".btn-close").click(function(){
+          $("#btn-menu").show();
+          $(".menuesquerdo").hide();
+        })
+        $("#menugrande").click(function(){
+          $("#menugrande").hide();
+          $(".menuesquerdo").show();
+        })
+        $(".btn-close").click(function(){
+          $("#menugrande").show();
+          $(".menuesquerdo").hide();
+        })
+         $("#btn-contato").click(function(){
+          $("#btn-contato").hide();
+          $(".menudireito").show();
+        })
+        $(".bt-close").click(function(){
+          $("#btn-contato").show();
+          $(".menudireito").hide();
+        })
+      </script>
+      <!-- JavaScript -->
+      <script src="js/materialize.js"></script>
+    </body>
+  </html>

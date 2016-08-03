@@ -1,0 +1,179 @@
+#logofesta{
+  margin-top: -100px;
+}
+
+#logocaneca{
+  max-width: 60%;
+  margin-left: 25%;
+}
+
+#logocomp{
+  max-width: 60%;
+  margin-left: 25%;
+}
+
+#inicio{
+  padding-top: 220px;
+}
+
+#if1{
+  border-color: #0C8346;
+}
+
+#if2{
+  border-color: #8FD5A6;
+}
+
+#if3{
+  border-color: #329F5B;
+}
+
+#icones{
+  padding: 20px;
+  text-align: center;
+}
+
+#contato a{
+  color: #000!important;
+  align-content: center;
+}
+
+#footer{
+  max-height: 200px;
+}
+
+#footer i{
+  padding: 0 20px;
+}
+
+div .button-collapse i{
+  font-size: 100px;
+}
+
+.button:hover{
+  border: 1px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.cabecalho{
+  width: 100%; 
+  border: 0 15px 0 15px;
+}
+.menu{
+  float: left;
+}
+
+.meio{
+  padding-top: 220px;
+}
+
+.contato{
+  float: right;
+  padding-right: 20px;
+}
+
+.quadrotitulo {
+  height: 100%;
+  text-align: center;
+ }
+
+.quadrotexto {
+  height: 100%;
+}
+
+.cor1 { 
+  background-color: #E5C2C0; 
+}
+
+.cor2 { 
+  background-color: #8FD5A6; 
+}
+
+.cor3 { 
+  background-color: #329F5B; 
+}
+
+.cor4 { 
+  background-color: #0C8346; 
+}
+
+.cor5 { 
+  background-color: #0D5D56; 
+}
+
+.menuesquerdo{
+  display: none;
+  width: 250px;
+  height: 300px;
+  position: fixed;
+  background-color: rgba(12,131,70,0.5);
+  top: 0;
+  left: 0;
+}
+
+.menudireito{
+  display: none;
+  width: 200px;
+  height: 220px;
+  position: fixed;
+  background-color: rgba(12,131,70,0.5);
+  top: 0;
+  right: 0;
+}
+
+.menudireito ul {
+  width: 100%;
+  float: right;
+  text-align: center;
+}
+
+.menudireito li a {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 1,5% 3%;
+}
+
+.menudireito li a:hover{
+  border: 1px;
+  background-color: rgba(13, 93, 86, 0.9);
+}
+
+.bt-close{
+  font-size: 2.5em;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+}
+
+.btn-close{
+  font-size: 2.5em;
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+
+.menuesquerdo ul {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.menuesquerdo li a {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 1,5% 3%;
+}
+
+.menuesquerdo li a:hover{
+  border: 1px;
+  background-color: rgba(13, 93, 86, 0.9);
+}
+
+h3{
+  font-family: fantasy;
+  font-size: 2.5rem;
+}
+
+h5{
+  margin: 5% 0 10% 0;
+}
